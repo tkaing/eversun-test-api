@@ -31,4 +31,4 @@ yarn dev
 ```
 
 The server is now running on [http://localhost:3009](http://localhost:3009).
-You can now setup the [Webapp](http://localhost:3009).
+You can now setup the [Webapp](https://github.com/tkaing/eversun-test).
