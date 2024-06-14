@@ -1,0 +1,38 @@
+{
+  "name": "eversun-test-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx ts-node src/index.ts",
+    "dev": "nodemon src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/koa": "^2.15.0",
+    "@types/koa-router": "^7.4.8",
+    "@types/koa-websocket": "^5.0.10",
+    "@types/lodash": "^4.17.1",
+    "koa": "^2.15.2",
+    "koa-router": "^12.0.1",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "@koa/bodyparser": "^5.1.0",
+    "@koa/cors": "^5.0.0",
+    "@types/koa__cors": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "jsonwebtoken": "^9.0.2",
+    "koa-websocket": "^7.0.0",
+    "lodash": "^4.17.21",
+    "mongodb": "^6.5.0",
+    "mqtt": "^5.7.0",
+    "zod": "^3.23.8"
+  }
+}
